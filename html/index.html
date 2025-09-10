@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papua New Guinea 50th Independence Day Anniversary Countdown</title>
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for a celebratory and clean feel -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white flex justify-center items-center h-screen relative overflow-hidden">
+    <!-- Animated Birds of Paradise in the background -->
+    <svg class="bird bird-1" viewBox="0 0 24 24">
+        <path d="M12.9 2.5C12.4 2.1 11.6 2.1 11.1 2.5L2.3 11.3C1.9 11.7 1.9 12.3 2.3 12.7L11.1 21.5C11.6 21.9 12.4 21.9 12.9 21.5L21.7 12.7C22.1 12.3 22.1 11.7 21.7 11.3L12.9 2.5Z" />
+    </svg>
+    <svg class="bird bird-2 bird-reverse" viewBox="0 0 24 24">
+        <path d="M12.9 2.5C12.4 2.1 11.6 2.1 11.1 2.5L2.3 11.3C1.9 11.7 1.9 12.3 2.3 12.7L11.1 21.5C11.6 21.9 12.4 21.9 12.9 21.5L21.7 12.7C22.1 12.3 22.1 11.7 21.7 11.3L12.9 2.5Z" />
+    </svg>
+    <svg class="bird bird-3" viewBox="0 0 24 24">
+        <path d="M12.9 2.5C12.4 2.1 11.6 2.1 11.1 2.5L2.3 11.3C1.9 11.7 1.9 12.3 2.3 12.7L11.1 21.5C11.6 21.9 12.4 21.9 12.9 21.5L21.7 12.7C22.1 12.3 22.1 11.7 21.7 11.3L12.9 2.5Z" />
+    </svg>
+    <svg class="bird bird-4 bird-reverse" viewBox="0 0 24 24">
+        <path d="M12.9 2.5C12.4 2.1 11.6 2.1 11.1 2.5L2.3 11.3C1.9 11.7 1.9 12.3 2.3 12.7L11.1 21.5C11.6 21.9 12.4 21.9 12.9 21.5L21.7 12.7C22.1 12.3 22.1 11.7 21.7 11.3L12.9 2.5Z" />
+    </svg>
+    
+    <!-- Confetti elements for a festive background -->
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+
+    <div class="z-10 flex flex-col items-center p-8 bg-gray-800 rounded-3xl shadow-2xl backdrop-blur-sm bg-opacity-70 border border-yellow-500">
+        <div class="gold-text font-extrabold text-5xl md:text-6xl px-6 py-2 mb-4 animate-pulse font-['Bebas_Neue'] tracking-wider">
+            50th
+        </div>
+        <h1 class="font-['Lobster'] text-2xl md:text-3xl font-bold gold-text mb-6 text-center drop-shadow-lg">
+            Papua New Guinea
+            <br>
+            Independence Day Anniversary
+        </h1>
+        <img id="flag" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Flag_of_Papua_New_Guinea.svg" alt="Papua New Guinea Flag" class="w-40 md:w-56 h-auto mb-8 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105">
+        
+        <div class="countdown grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 text-center">
+            <div class="p-4 bg-gray-700 rounded-xl border-2 border-yellow-500 shadow-md">
+                <span id="days" class="block text-4xl sm:text-5xl font-extrabold gold-text">0</span>
+                <p class="text-sm uppercase tracking-wide text-gray-300">Days</p>
+            </div>
+            <div class="p-4 bg-gray-700 rounded-xl border-2 border-yellow-500 shadow-md">
+                <span id="hours" class="block text-4xl sm:text-5xl font-extrabold gold-text">0</span>
+                <p class="text-sm uppercase tracking-wide text-gray-300">Hours</p>
+            </div>
+            <div class="p-4 bg-gray-700 rounded-xl border-2 border-yellow-500 shadow-md">
+                <span id="minutes" class="block text-4xl sm:text-5xl font-extrabold gold-text">0</span>
+                <p class="text-sm uppercase tracking-wide text-gray-300">Minutes</p>
+            </div>
+            <div class="p-4 bg-gray-700 rounded-xl border-2 border-yellow-500 shadow-md">
+                <span id="seconds" class="block text-4xl sm:text-5xl font-extrabold gold-text">0</span>
+                <p class="text-sm uppercase tracking-wide text-gray-300">Seconds</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Link to external JavaScript file for functionality -->
+    <script src="script.js"></script>
+</body>
+</html>
